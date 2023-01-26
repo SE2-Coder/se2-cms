@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html = lang="es">
+<html lang="es">
     <head>
         <meta charset="utf8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <title>SE2 CMS Install</title>
     </head>
     <body>
+    <div class="form">
+        <section class="install-form">
 
+                <h1 class="title">SE2 CMS Install</h1>
+
+                <label>Host/Server
+                <input type="text" class="inData" name="server" id="server" placeholder="server/localhost(default)"></label><br>
+                <label>Data Base Name
+                <input type="text" class="inData" name="ddbb" id="ddbb" placeholder="DDBB/Data Base Name"> </label> <br>
+                <label>Data Base User
+                <input type="text" class="inData" name="user" id="user" placeholder="DDBB User"> </label><br>
+                <label>Data Base Password
+                <input type="password" class="inData" name="passwordDDBB" id="passwordDDBB" placeholder="DDBB password"> </label> <br>
+                <button class="button" type="submit" name="send" id="send" value="install">Install</button>
+
+            </section>
+    </div>
     </body>
 </html>
