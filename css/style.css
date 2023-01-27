@@ -23,15 +23,14 @@
 
 }
 
-.form{
-
-}
 label{
     font-size: 15px;
     font-family: sans-serif;
 }
 
 .install-form{
+
+    display: flex;
     align-content: center;
     width: 400px;
     padding: 30px;
