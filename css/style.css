@@ -6,10 +6,14 @@
 }
 
 .logo{
+    max-width: 100%;
     display: block;
     width: 150px;
     margin-left: auto;
     margin-right: auto;
+}
+.inData:hover{
+    box-shadow: 0 0 2px 2px rgba(0, 245, 255, 100);
 }
 
 .body{
@@ -83,5 +87,11 @@ p{
     background: #030D0E;
     margin: 16px 0;
     padding: 12px;
+}
+
+.button:hover{
+
+    box-shadow: 0 0 2px 2px rgba(0, 245, 255, 100);
+
 }
 
