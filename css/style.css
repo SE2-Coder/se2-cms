@@ -5,6 +5,13 @@
 
 }
 
+.logo{
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .body{
 
     background: rgb(0,20,0);
