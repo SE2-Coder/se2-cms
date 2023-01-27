@@ -1,4 +1,4 @@
-# CMS installation front end
+# CMS Form html and CSS
 This is a part of a CMS project, in this form that can be multipurpose, a prototype has been created for the interface that will make the connection with the database of an existing hosting through php and mysql, to create this simple but efficient form I used **HTML** and **CSS**, to achieve the gradient that shows in its background I used the online tool [cssgradient.io](https://cssgradient.io/ "css gradient tool") as a reference to obtain the final result.
 
 ![CMS Installation Front End](demo.png "HTML Form Image")
