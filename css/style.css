@@ -21,6 +21,7 @@ label{
 }
 
 .install-form{
+    align-content: center;
     width: 400px;
     padding: 30px;
     margin: auto;
@@ -34,12 +35,21 @@ label{
     font-style: italic;
 }
 h1{
-    font-size: 22px;
-    font-family: "sans-serif";
+
+    font-size: 30px;
+    font-family: "SansSerif";
+    color: aliceblue;
     margin-bottom: 20px;
     width: 400px;
     margin-top: 50px;
-    text-align: center;
+}
+
+p{
+
+    font-weight: bold;
+    margin-bottom: 30px;
+
+
 }
 
 .inData{
