@@ -11,8 +11,6 @@ if (isset($_POST['send'])){
         $resultado->execute();
         $bbdd=null;
 
-        header('location:usr_record.php');
-
         if (empty($_POST['passwordDDBB'])){
             $_POST['password']='""';
         }
@@ -24,6 +22,7 @@ if (isset($_POST['send'])){
 
         fwrite($t,$text);
         fclose($t);
+        header('location:../signUp.html');
 
     }catch (Exception $e){
 
