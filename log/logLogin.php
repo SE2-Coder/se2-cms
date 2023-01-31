@@ -15,11 +15,11 @@ if(isset($_POST['send'])){
 
         session_start();
         $_SESSION['Admin']=$_POST['user'];
-        header('location:http://localhost/htmlTemplates/InstallTemplate/dashboard.php');
+        header('location:http://localhost/se2cms/dashboard.php');
 
     }else{
 
-        header('location:http://localhost/htmlTemplates/InstallTemplate/login.html');
+        header('location:http://localhost/se2cms/login.html');
 
     }
 

@@ -22,7 +22,7 @@ if (isset($_POST['send'])){
 
         fwrite($t,$text);
         fclose($t);
-        header('location:http://localhost/htmlTemplates/InstallTemplate/signUp.html');
+        header('location:http://localhost/se2cms/signUp.html');
 
     }catch (Exception $e){
 

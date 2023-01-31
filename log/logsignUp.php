@@ -18,7 +18,7 @@ if (isset($_POST['send'])){
         $result->execute(array(':userName'=>$name, ':usr'=>$user, ':userMail'=>$mail, ':password_usr'=>$pw));
         $result->closeCursor();
 
-        header('location:http://localhost/htmlTemplates/InstallTemplate/login.html');
+        header('location:http://localhost/se2cms/login.html');
 
     }catch (Exception $e){
 
