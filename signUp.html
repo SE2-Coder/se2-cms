@@ -4,28 +4,28 @@
     <meta charset="utf8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost/htmlTemplates/InstallTemplate/css/style.css">
     <title>Sign Up</title>
 </head >
 <body class="body">
 <div class="container">
     <div>
-        <img class="logo" src="img/SE2_cms_Logo.png" alt="SE2 cms Logo">
+        <img class="logo" src="http://localhost/htmlTemplates/InstallTemplate/img/SE2_cms_Logo.png" alt="SE2 cms Logo">
     </div>
     <h1>Sign Up</h1>
     <div class="form">
         <section class="install-form">
-            <form action="" method="post">
+            <form action="/log/logsignUp.php" method="post">
 
                 <P class="text">Indicate your personal data in the following form.</P>
                 <label class="lbl">Name<br>
-                    <input type="text" class="inData" name="server" id="server" placeholder="Your Name"></label><br>
+                    <input type="text" class="inData" name="user" id="Name" placeholder="Your Name"></label><br>
                 <label class="lbl">User Name<br>
-                    <input type="text" class="inData" name="ddbb" id="ddbb" placeholder="User or Nick"> </label> <br>
-                <label class="lbl">Data Base User<br>
+                    <input type="text" class="inData" name="usr" id="userName" placeholder="User or Nick"> </label> <br>
+                <label class="lbl">@ E-mail<br>
                     <input type="email" class="inData" name="user" id="user" placeholder="youremail@mail.com"> </label><br>
                 <label class="lbl">Password<br>
-                    <input type="password" class="inData" name="passwordDDBB" id="passwordDDBB" placeholder="**********"> </label> <br>
+                    <input type="password" class="inData" name="password_usr" id="passwordUsr" placeholder="**********"> </label> <br>
                 <button class="button" type="submit" name="send" id="send" value="install">SING UP</button>
             </form>
         </section>
