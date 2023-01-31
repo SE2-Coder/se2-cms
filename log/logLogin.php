@@ -13,11 +13,9 @@ if(isset($_POST['send'])){
 
     if($record=$result->fetch(PDO::FETCH_ASSOC) and password_verify($pwd, $record['pwd'])){
 
-        echo 'registro exitoso';
-        /*session_start();
-        $_SESSION['Admin']=$_POST['UserLog'];*/
-
-        //header('location:dashboard.php');
+        session_start();
+        $_SESSION['Admin']=$_POST['user'];
+        header('location:http://localhost/htmlTemplates/InstallTemplate/dashboard.php');
 
     }else{
 
